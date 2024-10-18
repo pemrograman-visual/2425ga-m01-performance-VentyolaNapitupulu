@@ -175,3 +175,7 @@ jobs:
         M01-TEST-005_RESULTS: "${{steps.m01-test-005.outputs.result}}"
       with:
         runners: m01-test-001,m01-test-002,m01-test-003,m01-test-004,m01-test-005
+        M01-TEST-004_RESULTS: "${{steps.m01-test-004.outputs.result}}"
+        M01-TEST-005_RESULTS: "${{steps.m01-test-005.outputs.result}}"
+      with:
+        runners: m01-test-001,m01-test-002,m01-test-003,m01-test-004,m01-test-005
